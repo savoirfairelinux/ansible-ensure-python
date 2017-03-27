@@ -3,6 +3,7 @@
 - name: Is python2 installed?
   raw: python --version
   ignore_errors: yes
+  changed_when: false
   register: has_python
 
 - name: Ensure that we have python2.7 installed
@@ -23,4 +24,4 @@
 # Verify and fail if we don't have python
 - name: Is python2 installed?
   raw: python --version
-
+  changed_when: false
