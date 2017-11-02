@@ -25,3 +25,4 @@
 - name: Is python2 installed?
   raw: python --version
   changed_when: false
+  when: has_python|failed
