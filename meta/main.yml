@@ -1,0 +1,6 @@
+---
+dependencies: []
+galaxy_info:
+  author: "Savoir-faire Linux, Inc."
+  description: "Ensure that Python 2 is installed using only raw commands."
+  min_ansible_version: 2.2
